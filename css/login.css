@@ -64,7 +64,8 @@
 .space{
     margin-top: 16px;
 }
-.show{
+.show,
+.show-2{
     position: absolute;
     right: 13px;
     font-size: 13px;
@@ -75,6 +76,9 @@
     font-family: 'Montserrat',sans-serif;
 }
 .pass-key:valid ~ .show{
+    display: block;
+}
+.pass-key-2:valid ~ .show-2 {
     display: block;
 }
 .pass{
